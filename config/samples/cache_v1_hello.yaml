@@ -4,4 +4,4 @@ metadata:
   name: hello-sample
 spec:
   # Add fields here
-  foo: bar
+  greeting: world

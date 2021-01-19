@@ -29,14 +29,14 @@ type HelloSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of Hello. Edit Hello_types.go to remove/update
-	Foo string `json:"greeting,omitempty"`
+	Greeting string `json:"greeting,omitempty"`
 }
 
 // HelloStatus defines the observed state of Hello
 type HelloStatus struct {
 	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
-	Foo string `json:"theGreeting,omitempty"`
+	TheGreeting string `json:"theGreeting,omitempty"`
 }
 
 // +kubebuilder:object:root=true
