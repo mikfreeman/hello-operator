@@ -2,6 +2,10 @@ domain: example.com
 layout: go.kubebuilder.io/v2
 projectName: hello-operator
 repo: hello-operator
+resources:
+- group: cache
+  kind: Hello
+  version: v1
 version: 3-alpha
 plugins:
   go.sdk.operatorframework.io/v2-alpha: {}
