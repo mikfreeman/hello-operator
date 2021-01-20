@@ -1,0 +1,7 @@
+apiVersion: cache.example.com/v1
+kind: Hello
+metadata:
+  name: hello-mars
+spec:
+  # Add fields here
+  greeting: mars
